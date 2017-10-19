@@ -314,7 +314,7 @@ If the requirements are not met, Azure Data Factory checks the settings and auto
         ],
         "typeProperties": {
             "source": {
-                "type": "BlobSource",
+                "type": "BlobSource"
             },
             "sink": {
                 "type": "SqlDwSink",
@@ -350,7 +350,7 @@ To use this feature, create an [Azure Storage linked service](connector-azure-bl
         ],
         "typeProperties": {
             "source": {
-                "type": "SqlSource",
+                "type": "SqlSource"
             },
             "sink": {
                 "type": "SqlDwSink",
